@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Imported Layers Copy" translatesAutoresizingMaskIntoConstraints="NO" id="dth-JW-BvO">
+                                <rect key="frame" x="142" y="120" width="90" height="90"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="Lda-Do-v8r"/>
+                                    <constraint firstAttribute="width" constant="90" id="fnd-FQ-GVz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Text_copy" translatesAutoresizingMaskIntoConstraints="NO" id="RaL-24-2Bo">
+                                <rect key="frame" x="133" y="588" width="109" height="19"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="FDZ-Vh-dFq"/>
+                                    <constraint firstAttribute="width" constant="109" id="Sk1-9u-yPO"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U聊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ya-HN-yyt">
+                                <rect key="frame" x="169" y="230" width="38" height="27"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.15686274509803921" green="0.16078431372549021" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="dth-JW-BvO" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="100" id="0WN-0E-SWK"/>
+                            <constraint firstItem="RaL-24-2Bo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JFE-PU-QYg"/>
+                            <constraint firstItem="dth-JW-BvO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="f2z-U4-RZN"/>
+                            <constraint firstItem="4ya-HN-yyt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gTs-eJ-j7j"/>
+                            <constraint firstItem="4ya-HN-yyt" firstAttribute="top" secondItem="dth-JW-BvO" secondAttribute="bottom" constant="20" id="lY7-4Y-5AT"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RaL-24-2Bo" secondAttribute="bottom" constant="60" id="nLp-rq-v5W"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="366.5" y="365.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Imported Layers Copy" width="90" height="90"/>
+        <image name="Text_copy" width="109" height="19"/>
+    </resources>
+</document>

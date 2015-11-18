@@ -1,0 +1,63 @@
+//
+//  UTChat.pch
+//  UTChat
+//
+//  Created by dcj on 15/11/6.
+//  Copyright © 2015年 dcj. All rights reserved.
+//
+
+#ifndef UTChat_pch
+#define UTChat_pch
+
+
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+
+#import "NIMSDK.h"
+#import "NTESGlobalMacro.h"
+#import "NIMKit.h"
+#import "NIMSDK.h"
+#import "Masonry.h"
+
+
+
+
+#import "UIView+Position.h"
+#import "UIColor+UChat.h"
+#import "NSString+UChat.h"
+
+
+#import "UTGlobalDefine.h"
+#import "NIMGlobalMacro.h"
+#import "UTChat.h"
+#import "WillRemove.h"
+
+
+
+
+#ifdef DEBUG
+#define D_Log(...) NSLog(__VA_ARGS__)
+#else
+#define D_Log(...)
+#endif
+#import "CocoaLumberjack.h"
+
+#import "DDLog.h"
+
+#ifdef DEBUG
+static DDLogLevel ddLogLevel = DDLogLevelVerbose;
+#else
+static DDLogLevel ddLogLevel = DDLogLevelInfo;
+#endif
+
+#endif
+
+//#endif
+
+
+#endif /* UTChat_pch */
